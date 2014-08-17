@@ -1,0 +1,88 @@
+body{
+	font-size: 16px;
+	font-family: Arial;
+	line-height: 36px;
+	margin: 20px;
+}
+.block{
+	float: left;
+	width: 30%;
+}
+.block label,
+.block input,
+.block select{
+	display: block;
+}
+.block input{
+	width: 90%;
+	border: 1px solid #bbbbbb;
+	box-shadow: inset 1px 1px 1px #bbbbbb;
+}
+.left,
+.right{
+	float: left;
+	width: 50%;
+}
+.left .block,
+.right .block{
+	float: none;
+}
+.left label,
+.right label{
+display: inline;
+float: left;
+}
+.clearboth{
+clear: both;
+}
+.left .block input, 
+.right .block input,
+.left .block select{
+	width: 320%;
+	height: 35px;
+}
+.block .width-min input{
+	width: 30%;
+	display: inline;
+}
+legend{
+	font-size: 24px;
+	line-height: 48px;
+}
+label,
+input{
+	color:#848478;
+}
+.red{
+	color:#CC0000;
+}
+.margin-possition{
+	margin-top: 48px;
+	margin-bottom: 48px;
+}
+
+.width-adjust {
+	margin-right: 5px;
+	width: 33%;
+}
+.width-adjust input{
+	width: 95%;
+	height: 35px;
+}
+
+ p{
+	display: inline;
+	color: #848478;
+}
+.option label{
+	width: 95%;
+	color:#000000;
+	margin-left: 5px;
+}
+.option input{
+	margin-right: 5px;
+	vertical-align: middle;
+}
+
+
+
