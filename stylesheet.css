@@ -1,5 +1,5 @@
 body{
-	font-size: 16px;
+	font-size: 12px;
 	font-family: Arial;
 	line-height: 36px;
 	margin: 20px;
@@ -131,6 +131,7 @@ textarea{
 }
 .agree input{
 	margin-right: 5px;
+
 }
 .submit{
 	padding: 5px;
