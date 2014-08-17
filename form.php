@@ -128,8 +128,146 @@
 				</div>
 			</div>
 		</div>
-
-
+		<div>
+			<legend>Matrix/Group Eements</legend>
+			<label>What food do you children like?</labe><p class="red">*</p>
+			<table class="tr-height">
+				<tr>
+					<td class="none-border"></td>
+					<td class="backgroud">Fish</td>
+					<td class="backgroud">Beef</td>
+					<td class="backgroud">Chicken</td>
+					<td class="backgroud">Salad</td>
+				</tr>
+				<tr>
+					<td class="backgroud">Child 1</td>
+					<td><input type="checkbox" name="" id=""></td>
+					<td><input type="checkbox" name="" id=""></td>
+					<td><input type="checkbox" name="" id=""></td>
+					<td><input type="checkbox" name="" id=""></td>
+				</tr>
+				<tr>
+					<td class="backgroud">Child 2</td>
+					<td><input type="checkbox" name="" id=""></td>
+					<td><input type="checkbox" name="" id=""></td>
+					<td><input type="checkbox" name="" id=""></td>
+					<td><input type="checkbox" name="" id=""></td>
+				</tr>
+				<tr>
+					<td class="backgroud">Child 3</td>
+					<td><input type="checkbox" name="" id=""></td>
+					<td><input type="checkbox" name="" id=""></td>
+					<td><input type="checkbox" name="" id=""></td>
+					<td><input type="checkbox" name="" id=""></td>
+				</tr>
+				<tr>
+					<td class="backgroud">Child 4</td>
+					<td><input type="checkbox" name="" id=""></td>
+					<td><input type="checkbox" name="" id=""></td>
+					<td><input type="checkbox" name="" id=""></td>
+					<td><input type="checkbox" name="" id=""></td>
+				</tr>
+			</table>
+			<label>How do you feel about us?:</labe><p class="red">*</p>
+			<table class="tr-height">
+				<tr>
+					<td class="none-border"></td>
+					<td class="backgroud">Very Satisfied</td>
+					<td class="backgroud">Satisfied</td>
+					<td class="backgroud">Somewhat Satisfied</td>
+					<td class="backgroud">Not Satisfied</td>
+				</tr>
+				<tr>
+					<td class="backgroud">Service Quality</td>
+					<td><input type="radio" name="service" id="very_service"></td>
+					<td><input type="radio" name="service" id="satisfied_service"></td>
+					<td><input type="radio" name="service" id="somewhat_service"></td>
+					<td><input type="radio" name="service" id="not_service"></td>
+				</tr>
+				<tr>
+					<td class="backgroud">Overall Hygiene</td>
+					<td><input type="radio" name="hygiene" id="very_hygiene"></td>
+					<td><input type="radio" name="hygiene" id="satisfied_hyhiene"></td>
+					<td><input type="radio" name="hygiene" id="somewhat_hygiene"></td>
+					<td><input type="radio" name="hygiene" id="not_hygiene"></td>
+				</tr>
+				<tr>
+					<td class="backgroud">Responsiveness</td>
+					<td><input type="radio" name="responsiveness" id="very_responsiveness"></td>
+					<td><input type="radio" name="responsiveness" id="satisfied_responsiveness"></td>
+					<td><input type="radio" name="responsiveness" id="somewhat_responsiveness"></td>
+					<td><input type="radio" name="responsiveness" id="not_responsiveness"></td>
+				</tr>
+				<tr>
+					<td class="backgroud">Kidness and Helpfuness</td>
+					<td><input type="radio" name="kidness" id="very_kidness"></td>
+					<td><input type="radio" name="kidness" id="satisfied_kidness"></td>
+					<td><input type="radio" name="kidness" id="somewhat_kidness"></td>
+					<td><input type="radio" name="kidness" id="not_kidness"></td>
+				</tr>
+			</table>
+			<label>List your favorite websites:</labe><p class="red">*</p>
+			<table class="website">
+				<tr class="tr-height">
+					<td class="none-border"></td>
+					<td class="backgroud">Site Name</td>
+					<td class="backgroud">URL</td>
+					<td class="backgroud">Speed</td>
+					<td class="backgroud">Design</td>
+				</tr>
+				<tr>
+					<td class="backgroud">Website #1</td>
+					<td><input type="text" name="name1" id="name_1"></td>
+					<td><input type="text" name="url1" id="url_1"></td>
+					<td><input type="text" name="speed1" id="speed_1"></td>
+					<td><input type="text" name="design1" id="design_1"></td>
+				</tr>
+				<tr>
+					<td class="backgroud">Website #2</td>
+					<td><input type="text" name="name2" id="name_2"></td>
+					<td><input type="text" name="url2" id="url_2"></td>
+					<td><input type="text" name="speed2" id="speed_2"></td>
+					<td><input type="text" name="design2" id="design_2"></td>
+				</tr>
+				<tr>
+					<td class="backgroud">Website #3</td>
+					<td><input type="text" name="name3" id="name_3"></td>
+					<td><input type="text" name="url3" id="url_3"></td>
+					<td><input type="text" name="speed3" id="speed_3"></td>
+					<td><input type="text" name="design3" id="design_3"></td>
+				</tr>
+				<tr>
+					<td class="backgroud">Website #4</td>
+					<td><input type="text" name="name4" id="name_4"></td>
+					<td><input type="text" name="url4" id="url_4"></td>
+					<td><input type="text" name="speed4" id="speed_4"></td>
+					<td><input type="text" name="design4" id="design_4"></td>
+				</tr>
+			</table>
+		</div>
+		<div>
+			<legend> Attach your Resume and Application</legend>
+			<div class= "button">
+				<label for="resume"> Resume (PDF, DOC or DOCX):<p class="red">*</p></label>
+				<input type="button" id="resume" value="Chosee File" name="choose_resume">
+				<p>No file chosen</p>
+			</div>
+			<div class="button">
+				<label for="application"> Application</label>
+				<input type="button" value="Choose File" id="application" name="chosee_application">
+				<p>No file chosen</p>
+			<div>
+		</div>
+		<div class="additional">
+			<legend>Additional</legend>
+			<label>Additional Comments:</label>
+			<textarea placeholder="Here is an exemple of defalut multiline text. ---JsonFormBuilder---"></textarea>
+		</div>
+		<div class="agree">
+			<label for="spam"><input id="spam" type="checkbox" name="spam_check">Sign me up for some spam:</label>
+			<label for="spam"><input id="spam" type="checkbox" name="spam_check">I agree to the terms & conditions: <p class="red">*</p></label>
+		</div>
+		<input type="submit" value="Submit From" name="submit_form" class="submit">
 	</form>		
 </body>
 </html>
