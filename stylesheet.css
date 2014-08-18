@@ -13,7 +13,9 @@ body{
 .block select{
 	display: block;
 }
-.block input{
+
+.block input,
+.block select {
 	width: 90%;
 	border: 1px solid #bbbbbb;
 	box-shadow: inset 1px 1px 1px #bbbbbb;
@@ -41,16 +43,18 @@ clear: both;
 	width: 320%;
 	height: 35px;
 }
-.block .width-min input{
-	width: 30%;
+.block .width-min select{
+	width: 32%;
 	display: inline;
+	height: 36px;
 }
 legend{
-	font-size: 24px;
+	font-size: 20px;
 	line-height: 48px;
 }
 label,
-input{
+input,
+select{
 	color:#848478;
 }
 .red{
@@ -113,16 +117,16 @@ td{
 .website td input{
 	width: 90%;
 	height: 80%;
+	border: 1px solid #bbbbbb;
+	box-shadow: inset 1px 1px 1px #bbbbbb;
 }
 .button label{
 	display: block;
 }
-.button .red{
-	color: #CC0000;
+.button input{
+	color:#000000;
 }
-.button p{
-	color: #000000;
-}
+
 textarea{
 	width: 300px;
 	height: 150px;

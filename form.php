@@ -36,6 +36,10 @@
 				<div class="block">
 					<label for="state">Select a state:</label>
 					<select id="state" name="user_state">
+						<option value="1" selected>Please select...</option>
+						<option value="2">USA</option>
+						<option value="3">England</option>
+						<option value="4">Frace</option>
 					</select>
 				</div>
 			</div>
@@ -47,9 +51,58 @@
 				<div class="block">
 					<label for="date">Select Date:</label><p class="red">*</p>
 						<div class="width-min">
-							<input type="date" id="year" name="select_year" min="1981" max="2014">	
-							<input type="date" id="month" name="select_month" min="January" max="December">
-							<input type="date" id="day" name="select_day" min="01" max="31">
+							<select  id="year" name="year">
+								<option value="1" selected>---</option>
+								<option value="2">2013</option>
+								<option value="3">2014</option>
+							</select>
+							<select  id="month" name="month">
+								<option value="1" selected>January</option>
+								<option value="2">February</option>
+								<option value="3">March</option>
+								<option value="4">April</option>
+								<option value="5">May</option>
+								<option value="6">June</option>
+								<option value="7">July</option>
+								<option value="8">August</option>
+								<option value="9">September</option>
+								<option value="10">October</option>
+								<option value="11">November</option>
+								<option value="12">December</option>
+							</select>
+							<select id="day" name="day">
+								<option value="1" selected>1st</option>
+								<option value="2" >2nd</option>
+								<option value="3" >3</option>
+								<option value="4" >4</option>
+								<option value="5" >5</option>
+								<option value="6" >6</option>
+								<option value="7" >7</option>
+								<option value="8" >8</option>
+								<option value="9" >9</option>
+								<option value="10" >10</option>
+								<option value="11" >11</option>
+								<option value="12" >12</option>
+								<option value="13" >13</option>
+								<option value="14" >14</option>
+								<option value="15" >15</option>
+								<option value="16" >16</option>
+								<option value="17" >17</option>
+								<option value="18" >18</option>
+								<option value="19" >19</option>
+								<option value="20" >20</option>
+								<option value="21" >21</option>
+								<option value="22" >22</option>
+								<option value="23" >23</option>
+								<option value="24" >24</option>
+								<option value="25" >25</option>
+								<option value="26" >26</option>
+								<option value="27" >27</option>
+								<option value="28" >28</option>
+								<option value="29" >29</option>
+								<option value="30" >30</option>
+								<option value="31" >31</option>
+							</select>
 						</div>	
 				</div>
 				<div class="block">
@@ -141,31 +194,31 @@
 				</tr>
 				<tr>
 					<td class="backgroud">Child 1</td>
-					<td><input type="checkbox" name="" id=""></td>
-					<td><input type="checkbox" name="" id=""></td>
-					<td><input type="checkbox" name="" id=""></td>
-					<td><input type="checkbox" name="" id=""></td>
+					<td><input type="checkbox" name="fish1" id="fish1"></td>
+					<td><input type="checkbox" name="beef1" id="beef1"></td>
+					<td><input type="checkbox" name="chichen1" id="chichen1"></td>
+					<td><input type="checkbox" name="salad1" id="salad1"></td>
 				</tr>
 				<tr>
 					<td class="backgroud">Child 2</td>
-					<td><input type="checkbox" name="" id=""></td>
-					<td><input type="checkbox" name="" id=""></td>
-					<td><input type="checkbox" name="" id=""></td>
-					<td><input type="checkbox" name="" id=""></td>
+					<td><input type="checkbox" name="fish2" id="fish2"></td>
+					<td><input type="checkbox" name="beef2" id="beef2"></td>
+					<td><input type="checkbox" name="chichen2" id="chichen2"></td>
+					<td><input type="checkbox" name="salad2" id="salad2"></td>
 				</tr>
 				<tr>
 					<td class="backgroud">Child 3</td>
-					<td><input type="checkbox" name="" id=""></td>
-					<td><input type="checkbox" name="" id=""></td>
-					<td><input type="checkbox" name="" id=""></td>
-					<td><input type="checkbox" name="" id=""></td>
+					<td><input type="checkbox" name="fish3" id="fish3"></td>
+					<td><input type="checkbox" name="beef3" id="beef3"></td>
+					<td><input type="checkbox" name="chichen3" id="chichen3"></td>
+					<td><input type="checkbox" name="salad3" id="salad3"></td>
 				</tr>
 				<tr>
 					<td class="backgroud">Child 4</td>
-					<td><input type="checkbox" name="" id=""></td>
-					<td><input type="checkbox" name="" id=""></td>
-					<td><input type="checkbox" name="" id=""></td>
-					<td><input type="checkbox" name="" id=""></td>
+					<td><input type="checkbox" name="sish4" id="fish4"></td>
+					<td><input type="checkbox" name="beef4" id="beef4"></td>
+					<td><input type="checkbox" name="chichen4" id="chichen4"></td>
+					<td><input type="checkbox" name="salad4" id="salad4"></td>
 				</tr>
 			</table>
 			<label>How do you feel about us?:</labe><p class="red">*</p>
@@ -249,13 +302,11 @@
 			<legend> Attach your Resume and Application</legend>
 			<div class= "button">
 				<label for="resume"> Resume (PDF, DOC or DOCX):<p class="red">*</p></label>
-				<input type="button" id="resume" value="Chosee File" name="choose_resume">
-				<p>No file chosen</p>
+				<input type="file" id="resume" value="Chosee File" name="choose_resume">
 			</div>
 			<div class="button">
 				<label for="application"> Application</label>
-				<input type="button" value="Choose File" id="application" name="chosee_application">
-				<p>No file chosen</p>
+				<input type="file" value="Choose File" id="application" name="chosee_application">
 			<div>
 		</div>
 		<div class="additional">
