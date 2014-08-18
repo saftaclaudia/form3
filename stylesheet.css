@@ -4,10 +4,7 @@ body{
 	line-height: 36px;
 	margin: 20px;
 }
-.block{
-	float: left;
-	width: 30%;
-}
+
 .block label,
 .block input,
 .block select{
@@ -16,7 +13,6 @@ body{
 
 .block input,
 .block select {
-	width: 90%;
 	border: 1px solid #bbbbbb;
 	box-shadow: inset 1px 1px 1px #bbbbbb;
 }
@@ -29,24 +25,28 @@ body{
 .right .block{
 	float: none;
 }
-.left label,
-.right label{
-display: inline;
-float: left;
-}
+
 .clearboth{
 clear: both;
 }
 .left .block input, 
 .right .block input,
 .left .block select{
-	width: 320%;
+	width: 90%;
 	height: 35px;
 }
-.block .width-min select{
-	width: 32%;
-	display: inline;
+ .data .width10 select,
+.data .width20 select {	
 	height: 36px;
+	float:left;
+	display: inline-block;
+	margin-right: 5px;
+}
+.data .width10 select{
+	width: 10%;
+}
+.data .width20 select{
+	width:20%;
 }
 legend{
 	font-size: 20px;
@@ -65,9 +65,10 @@ select{
 	margin-bottom: 48px;
 }
 
-.width-adjust {
+.width32 .width-adjust {
 	margin-right: 5px;
-	width: 33%;
+	width: 32%;
+	float: left;
 }
 .width-adjust input{
 	width: 95%;
@@ -75,8 +76,8 @@ select{
 }
 
  p{
-	display: inline;
 	color: #848478;
+	display: inline;
 }
 .option label{
 	width: 95%;
