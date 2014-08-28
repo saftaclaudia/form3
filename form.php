@@ -10,7 +10,7 @@
 	<form action="processAplication.php" method="post">
 		<legend>Personal Information</legend>
 		<div class="clearfix">
-			<div class="left">
+			<div class="half">
 				<div class="block">
 					<label for="full-name">Full Name:<p class="red">*</p></label>
 					<input id="full-name" name="full_name" type="text" placeholder="Your Name Here">	
@@ -43,7 +43,7 @@
 					</select>
 				</div>
 			</div>
-			<div class="right">
+			<div class="half">
 				<div class="block">
 					<label for="age">Age:<p class="red">*</p></label>
 					<input id="age" name="user_age" type="text">	

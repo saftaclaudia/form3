@@ -16,22 +16,19 @@ body{
 	border: 1px solid #bbbbbb;
 	box-shadow: inset 1px 1px 1px #bbbbbb;
 }
-.left,
-.right{
+.half{
 	float: left;
 	width: 50%;
 }
-.left .block,
-.right .block{
+.half .block{
 	float: none;
 }
 
 .clearboth{
 clear: both;
 }
-.left .block input, 
-.right .block input,
-.left .block select{
+.half .block input, 
+.half .block select{
 	width: 90%;
 	height: 35px;
 }
@@ -127,7 +124,6 @@ td{
 .button input{
 	color:#000000;
 }
-
 textarea{
 	width: 300px;
 	height: 150px;
