@@ -191,35 +191,35 @@
 			<label>What food do you children like?</labe><p class="red">*</p>
 			<table class="tr-height">
 				<tr>
-					<td class="none-border"></td>
-					<td class="backgroud">Fish</td>
-					<td class="backgroud">Beef</td>
-					<td class="backgroud">Chicken</td>
-					<td class="backgroud">Salad</td>
+					<th class="none-border"></th>
+					<th>Fish</th>
+					<th>Beef</th>
+					<th>Chicken</th>
+					<th>Salad</th>
 				</tr>
 				<tr>
-					<td class="backgroud">Child 1</td>
+					<th>Child 1</th>
 					<td><input type="checkbox" name="fish1" id="fish1"></td>
 					<td><input type="checkbox" name="beef1" id="beef1"></td>
 					<td><input type="checkbox" name="chichen1" id="chichen1"></td>
 					<td><input type="checkbox" name="salad1" id="salad1"></td>
 				</tr>
 				<tr>
-					<td class="backgroud">Child 2</td>
+					<th>Child 2</th>
 					<td><input type="checkbox" name="fish2" id="fish2"></td>
 					<td><input type="checkbox" name="beef2" id="beef2"></td>
 					<td><input type="checkbox" name="chichen2" id="chichen2"></td>
 					<td><input type="checkbox" name="salad2" id="salad2"></td>
 				</tr>
 				<tr>
-					<td class="backgroud">Child 3</td>
+					<th>Child 3</th>
 					<td><input type="checkbox" name="fish3" id="fish3"></td>
 					<td><input type="checkbox" name="beef3" id="beef3"></td>
 					<td><input type="checkbox" name="chichen3" id="chichen3"></td>
 					<td><input type="checkbox" name="salad3" id="salad3"></td>
 				</tr>
 				<tr>
-					<td class="backgroud">Child 4</td>
+					<th>Child 4</th>
 					<td><input type="checkbox" name="sish4" id="fish4"></td>
 					<td><input type="checkbox" name="beef4" id="beef4"></td>
 					<td><input type="checkbox" name="chichen4" id="chichen4"></td>
@@ -229,35 +229,35 @@
 			<label>How do you feel about us?:</labe><p class="red">*</p>
 			<table class="tr-height">
 				<tr>
-					<td class="none-border"></td>
-					<td class="backgroud">Very Satisfied</td>
-					<td class="backgroud">Satisfied</td>
-					<td class="backgroud">Somewhat Satisfied</td>
-					<td class="backgroud">Not Satisfied</td>
+					<th class="none-border"></th>
+					<th>Very Satisfied</th>
+					<th>Satisfied</th>
+					<th>Somewhat Satisfied</th>
+					<th>Not Satisfied</th>
 				</tr>
 				<tr>
-					<td class="backgroud">Service Quality</td>
+					<th>Service Quality</th>
 					<td><input type="radio" name="service" id="very_service"></td>
 					<td><input type="radio" name="service" id="satisfied_service"></td>
 					<td><input type="radio" name="service" id="somewhat_service"></td>
 					<td><input type="radio" name="service" id="not_service"></td>
 				</tr>
 				<tr>
-					<td class="backgroud">Overall Hygiene</td>
+					<th>Overall Hygiene</th>
 					<td><input type="radio" name="hygiene" id="very_hygiene"></td>
 					<td><input type="radio" name="hygiene" id="satisfied_hyhiene"></td>
 					<td><input type="radio" name="hygiene" id="somewhat_hygiene"></td>
 					<td><input type="radio" name="hygiene" id="not_hygiene"></td>
 				</tr>
 				<tr>
-					<td class="backgroud">Responsiveness</td>
+					<th>Responsiveness</th>
 					<td><input type="radio" name="responsiveness" id="very_responsiveness"></td>
 					<td><input type="radio" name="responsiveness" id="satisfied_responsiveness"></td>
 					<td><input type="radio" name="responsiveness" id="somewhat_responsiveness"></td>
 					<td><input type="radio" name="responsiveness" id="not_responsiveness"></td>
 				</tr>
 				<tr>
-					<td class="backgroud">Kidness and Helpfuness</td>
+					<th>Kidness and Helpfuness</th>
 					<td><input type="radio" name="kidness" id="very_kidness"></td>
 					<td><input type="radio" name="kidness" id="satisfied_kidness"></td>
 					<td><input type="radio" name="kidness" id="somewhat_kidness"></td>
@@ -267,35 +267,35 @@
 			<label>List your favorite websites:</labe><p class="red">*</p>
 			<table class="website">
 				<tr class="tr-height">
-					<td class="none-border"></td>
-					<td class="backgroud">Site Name</td>
-					<td class="backgroud">URL</td>
-					<td class="backgroud">Speed</td>
-					<td class="backgroud">Design</td>
+					<th class="none-border"></th>
+					<th>Site Name</th>
+					<th>URL</th>
+					<th>Speed</th>
+					<th>Design</th>
 				</tr>
 				<tr>
-					<td class="backgroud">Website #1</td>
+					<th>Website #1</th>
 					<td><input type="text" name="name1" id="name_1"></td>
 					<td><input type="text" name="url1" id="url_1"></td>
 					<td><input type="text" name="speed1" id="speed_1"></td>
 					<td><input type="text" name="design1" id="design_1"></td>
 				</tr>
 				<tr>
-					<td class="backgroud">Website #2</td>
+					<th>Website #2</th>
 					<td><input type="text" name="name2" id="name_2"></td>
 					<td><input type="text" name="url2" id="url_2"></td>
 					<td><input type="text" name="speed2" id="speed_2"></td>
 					<td><input type="text" name="design2" id="design_2"></td>
 				</tr>
 				<tr>
-					<td class="backgroud">Website #3</td>
+					<th>Website #3</th>
 					<td><input type="text" name="name3" id="name_3"></td>
 					<td><input type="text" name="url3" id="url_3"></td>
 					<td><input type="text" name="speed3" id="speed_3"></td>
 					<td><input type="text" name="design3" id="design_3"></td>
 				</tr>
 				<tr>
-					<td class="backgroud">Website #4</td>
+					<th>Website #4</th>
 					<td><input type="text" name="name4" id="name_4"></td>
 					<td><input type="text" name="url4" id="url_4"></td>
 					<td><input type="text" name="speed4" id="speed_4"></td>

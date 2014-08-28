@@ -88,19 +88,21 @@ select{
 table{
 	width: 100%
 }
-table td{
+table td,
+table th{
 	width: 20%;
 	border:1px solid #848478;
 	color: #000000;
 	text-align: center;
 }
-table td:first-child{
+table th:first-child{
 	text-align: left;
 }
 table .none-border{
 	border: none;
+	background-color: transparent;
 }
-.backgroud{
+th{
 	background-color:#EFEFE7;
 }
 .tr-height td{
@@ -109,7 +111,7 @@ table .none-border{
 .tr-height td{
 	line-height: 24px;
 }
-td{
+th{
 	font-size: 12px;
 }
 .website td input{
