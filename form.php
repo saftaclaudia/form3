@@ -321,7 +321,7 @@
 		</div>
 		<div class="agree">
 			<label for="spam"><input id="spam" type="checkbox" name="spam_check">Sign me up for some spam:</label>
-			<label for="spam"><input id="spam" type="checkbox" name="spam_check">I agree to the terms & conditions: <p class="red">*</p></label>
+			<label for="agree"><input id="agree" type="checkbox" name="agree_check">I agree to the terms & conditions: <p class="red">*</p></label>
 		</div>
 		<input type="submit" value="Submit From" name="submit_form" class="submit">
 	</form>		
